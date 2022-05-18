@@ -1,0 +1,109 @@
+html{
+    width: 100%;
+    overflow: hidden;
+}
+#winPage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    background-color: white;
+    font-size: 150px;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0%;
+}
+#losePage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    background-color: white;
+    font-size: 150px;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0%;
+}
+.playAgain{
+    width: 150px;
+    height: 100px;
+}
+#gameArea{
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    top: 25%;
+    z-index: 1;
+    overflow: hidden;
+}
+#page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+}
+.title{
+    height:z 50px;
+    width: 150px;
+    font-size: 30px;
+    color: black;
+}
+.button{
+    flex: 1;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1px;
+    font-size: 125px;
+    text-align: center;
+}
+.col{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+#startPage{
+    display: flex;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 9;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+#startButton{
+    width: 100px;
+    height: 70px;
+}
+#block{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0%;
+    left: 500%;
+    top: 0%;
+    z-index: 8;
+}
+#restartButton{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
